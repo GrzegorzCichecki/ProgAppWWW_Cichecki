@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="UTF-8">
+<title>Kontakt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="naglowek">
+<h1>Kontakt</h1>
+</header>
+<nav class="menu">
+<a href="index.html" aria-current="page">index</a>
+<a href="produkt.html">produkt</a>
+<a href="kontakt.html" aria-current="page">kontakt</a>
+</nav>
+<main class="tresc">
+<article>
+<h2>Formularz demonstracyjny. Dane pojawią się w adresie strony; zapytanie nie
+zostanie zapisane ani wysłane e-mailem</h2>
+<form method="get" action="kontakt.html">
+<label for="adresemail">Adres email</label>
+<input type="email" name="email"  id="adresemail" required>
+<label for="wybor">Wybor produktu</label>
+<select name="produkt"  id="wybor" required >
+<option value="">wybierz produkt</option>
+<option value="szymanowska">Mąka przenna Szymanowska typ 480</option>
+<option value="janex">Mąka ziemniaczana JANEX</option>
+<option value="proszek">Proszek do pieczenia dr Oetker</option>
+</select>
+<label for="ilosc">Ilość produktów</label>
+<input type="number" name="liczba"  id="ilosc" required min="1" max="5" step="1">
+<label for="tekst">Wiadomość dołączona do zamówienia</label>
+<input type="text" name="wiadomosc" id="tekst" required minlength="10" maxlength="500">
+<button type="submit">Sprawdź zapytanie</button>
+</form>
+</article>
+</main>
+<footer class="stoopka"></footer>
+</body>
+
+</html>
