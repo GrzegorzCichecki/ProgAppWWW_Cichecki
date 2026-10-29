@@ -1,0 +1,2 @@
+Opis uruchomienia: uruchomić na serwerze lokalnym, uruchomić można dowolny plik hmtl    
+Opis przepływu: skrypt monitoruje obiekt, w momencie gdy określone zdarzenie na obiekcie sie wykona (np. uzytkownik naciśnie na przycisk) skrypt uruchamia odpowiednią funkcję. Skrypt pobiera odpowiednie dane, oblicza i następnie za pomocą .textContent (lub innych metod) zmienia DOM
