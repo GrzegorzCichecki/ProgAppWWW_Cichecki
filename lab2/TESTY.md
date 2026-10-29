@@ -28,10 +28,10 @@ Zaobserwowany wynik: Wycena pokazuje błędne wartości
 Rozwiązanie: Naprawiono logikę funkcji oraz warunki sprawdzające poprawność danych    
 Stan obecny: Wycena nie pokazuje błędnej wartości    
 
-##Dziesięć spacji oraz tekst <b>Test</b>
+## Dziesięć spacji oraz tekst <b>Test</b>
 Oczekiwany wynik: Same spacje są odrzucone; poprawna wiadomość ze znacznikamijest pokazana jako dosłowny tekst.    
-Zaobserwowany wynik: Same spacje są odrzucone; poprawna wiadomość ze znacznikamijest pokazana jako dosłowny tekst.
+Zaobserwowany wynik: Same spacje są odrzucone; poprawna wiadomość ze znacznikamijest pokazana jako dosłowny tekst.     
 
-##Klawiatura widoki i wyłączony JavaScript
-Oczekiwany wynik: Kontrolki działają klawiaturą przy 375 i 1280 px; bez JS katalog, treść i menu pozostają dostępne.
-Zaobserwowany wynik: Kontrolki działają klawiaturą przy 375 i 1280 px; bez JS katalog, treść i menu pozostają dostępne.
+## Klawiatura widoki i wyłączony JavaScript
+Oczekiwany wynik: Kontrolki działają klawiaturą przy 375 i 1280 px; bez JS katalog, treść i menu pozostają dostępne.     
+Zaobserwowany wynik: Kontrolki działają klawiaturą przy 375 i 1280 px; bez JS katalog, treść i menu pozostają dostępne.     
