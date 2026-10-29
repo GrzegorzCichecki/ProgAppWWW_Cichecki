@@ -14,11 +14,11 @@ Zaobserwowany wynik: Działa jeden interwał; Stop zatrzymuje aktualizację, a w
 Oczekiwany wynik: Pasujące karty pozostają widoczne; licznik zgadza się z widokiem.    
 Zaobserwowany wynik: Pasujące karty pozostają widoczne; licznik zgadza się z widokiem.
 
-##Brak dopasowania i wyczyszczenie pola
+## Brak dopasowania i wyczyszczenie pola
 Oczekiwany wynik: Pojawia się komunikat o braku wyników; wyczyszczenie przywraca trzy karty.   
 Zaobserwowany wynik: Brak dopasowania - licznik wyników pokazuje 0, wyczyszczenie przywraca trzy karty. 
 
-##Cena 1999 gr oraz ilość 3
+## Cena 1999 gr oraz ilość 3
 Oczekiwany wynik: Wynik wynosi 59,97 zł; sprawdź samą funkcję obliczeniową również w konsoli.
 Zaobserwowany wynik: odpowiedni wynik na stronie jak i w konsoli
 
