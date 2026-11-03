@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl-PL" data-theme="light" id="html">
+<head>
+<meta charset="UTF-8">
+<title>Kontakt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body id="kontakt">
+<header class="naglowek">
+<h1>Kontakt</h1>
+</header>
+<nav class="menu">
+<a href="index.html" aria-current="page">index</a>
+<a href="produkt.html">produkt</a>
+<a href="kontakt.html" aria-current="page">kontakt</a>
+</nav>
+<main class="tresc">
+<article>
+<h2>Podgląd lokalny. Formularz nie wysyła wiadomości</h2>
+<form method="get" action="kontakt.html">
+<label for="adresemail">Adres email</label>
+<input type="email" name="email"  id="adresemail" required>
+<p id="wyniki_adres_blad" hidden></p>
+<label for="wybor">Wybor produktu</label>
+<select name="produkt"  id="wybor" required >
+<option value="">wybierz produkt</option>
+<option value="szymanowska" id="op1">Mąka przenna Szymanowska typ 480</option>
+<option value="janex" id="op2">Mąka ziemniaczana JANEX</option>
+<option value="proszek" id="op3">Proszek do pieczenia dr Oetker</option>
+</select>
+
+<p id="wyniki_wybor_blad" hidden></p>
+<label for="ilosc">Ilość produktów</label>
+
+<input type="number" name="liczba"  id="ilosc" required min="1" max="5" step="1">
+<p id="wyniki_ilosc_blad" hidden></p>
+<label for="tekst">Wiadomość dołączona do zamówienia</label>
+<input type="text" name="wiadomosc" id="tekst" required minlength="10" maxlength="500">
+<p id="wyniki_wiadomosc_blad" hidden></p>
+<button type="submit" id="sprawdzacz">Sprawdź zapytanie</button>
+</form>
+</article>
+<article>
+<p id="wyniki_naglowek">Wyniki zapytania:</p>
+<p id="wyniki_adres">Adres e-mail: </p>
+<p id="wyniki_wybor">Produkt: </p>
+<p id="wyniki_ilosc">Ilość: </p>
+<p id="wyniki_wiadomosc">Wiadomość: </p>
+<p id="wyniki_wartosc">Wartość: </p>
+</article>
+</main>
+<footer class="stoopka">
+<button type="button" id="tryb" aria-pressed="false">Tryb ciemny</button>
+</footer>
+</body>
+
+</html>
