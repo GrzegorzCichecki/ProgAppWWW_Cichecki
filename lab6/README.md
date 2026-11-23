@@ -1,5 +1,7 @@
 v1.5   
-
+odtworzenie bazy: wykonaj polecenia najpierw z schema.sql a potem z seed.sql z oba z folderu sql.
+lokalny użytkownik: stwórz użytkownika i wykonaj polecenie GRANT SELECT ON moja_strona.page_list TO nazwauzytkownika@localhost;      
+uruchomienie strony folder lab6 umieścić w htdocs, uruchomic localhost/lab6/index.php    
 # Pseudokod odczytu strony
 
 jeżeli $pdo istnieje i nie jest null: 
