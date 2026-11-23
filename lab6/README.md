@@ -5,18 +5,18 @@ uruchomienie strony folder lab6 umieścić w htdocs, uruchomic localhost/lab6/in
 # Pseudokod odczytu strony
 
 jeżeli $pdo istnieje i nie jest null: 
--wykonaj zapytanie z aliasem $_GET["idp"]
--jeżeli zapytanie jest puste i $_GET["idp"] jest puste:
---wczytaj wykonaj zapytanie z aliasem glowna
---wyswietl glowna
--jezeli zapyanie jest puste i $_GET["idp"] nie jest puste:
---bład http 500 
---strona z blędem
--w przeciwnym wypadku: 
---wczytaj strone z zapytania
-w przeciwnym wypadku:
--bład http 500 
--strona z blędem
+-wykonaj zapytanie z aliasem $_GET["idp"]     
+-jeżeli zapytanie jest puste i $_GET["idp"] jest puste:    
+--wczytaj wykonaj zapytanie z aliasem glowna     
+--wyswietl glowna    
+-jezeli zapyanie jest puste i $_GET["idp"] nie jest puste:     
+--bład http 500      
+--strona z blędem      
+-w przeciwnym wypadku:        
+--wczytaj strone z zapytania      
+w przeciwnym wypadku:      
+-bład http 500      
+-strona z blędem     
 
 # Próby i oczekiwany wynik 
 ## Odczyt i aktualizacja treści
